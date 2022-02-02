@@ -1,0 +1,10 @@
+<form [formGroup]="appForm">
+  <label for="birthday">Date:</label>
+  <input
+    type="date"
+    id="birthday"
+    name="birthday"
+    formControlName="birthday"
+    (change)="dateFun()"
+  />
+</form>
